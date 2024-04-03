@@ -33,7 +33,7 @@ public class Runner_class extends Base_class
 		js.executeScript("window.scrollBy(0,400)");
 		Thread.sleep(5000);
 		driver.findElement(By.id("searchBtn")).click();
-		Thread.sleep(60000);
+		//Thread.sleep(5000);
 		rbt.keyPress(KeyEvent.VK_ENTER);
 		rbt.keyRelease(KeyEvent.VK_ENTER);
 
@@ -57,9 +57,10 @@ public class Runner_class extends Base_class
 		js.executeScript("window.scrollBy(0,400)");
 		Thread.sleep(5000);
 		driver.findElement(By.id("searchBtn")).click();
-		Thread.sleep(60000);
+		//Thread.sleep(5000);
 		rbt.keyPress(KeyEvent.VK_ENTER);
 		rbt.keyRelease(KeyEvent.VK_ENTER);
+	
 
 		 
 	} 
